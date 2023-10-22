@@ -1,0 +1,35 @@
+{
+  "name": "roxy-store",
+  "version": "1.0.2",
+  "description": "Roxy Store is a lightweight state management library for React applications. It provides a simple and efficient way to manage your application's state.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --outDir dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "state",
+    "management",
+    "store",
+    "roxy",
+    "roxy-store"
+  ],
+  "author": "prokop-lost",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prokop321/Roxy-Store.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.31",
+    "typescript": "^5.2.2"
+  }
+}
